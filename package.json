@@ -3,6 +3,13 @@
 	"main": "server.js",
 	"dependencies": {
 		"express": "~4.0.0",
-		"body-parser": "~1.0.1"
+		"body-parser": "~1.0.1",
+		"api-easy": "0.3.8"
+	},
+	"devDependencies": {
+	    "director": "~1.0.3"
+	},
+	"scripts": {
+		"test": "vows test/*-test.js"
 	}
 }
